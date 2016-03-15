@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    copyrightText="This program and the accompanying materials&#xD;&#xA;are made available under the terms of the Eclipse Public License v1.0&#xD;&#xA;which accompanies this distribution, and is available at&#xD;&#xA;http://www.eclipse.org/legal/epl-v10.html"
+    modelDirectory="/emf-guava/src" modelPluginID="emf-guava" modelName="Emf-guava"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="7.0" copyrightFields="false" runtimeVersion="2.8" language=""
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>emf-guava.ecore</foreignModel>
+  <genPackages prefix="Emfguava" disposableProviderFactory="true" adapterFactory="false"
+      literalsInterface="false" multipleEditorPages="false" generateModelWizard="false"
+      ecorePackage="emf-guava.ecore#/">
+    <genClasses image="false" ecoreClass="emf-guava.ecore#//Predicate">
+      <genTypeParameters ecoreTypeParameter="emf-guava.ecore#//Predicate/T"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="emf-guava.ecore#//Function">
+      <genTypeParameters ecoreTypeParameter="emf-guava.ecore#//Function/F"/>
+      <genTypeParameters ecoreTypeParameter="emf-guava.ecore#//Function/T"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
