@@ -11,5 +11,5 @@ Export-Package: emfguava,
  emfguava.impl
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore;visibility:=reexport,
- com.google.guava;visibility:=reexport
+ com.google.guava;bundle-version="10.0.0";visibility:=reexport
 Bundle-ActivationPolicy: lazy
